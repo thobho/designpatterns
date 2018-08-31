@@ -1,0 +1,27 @@
+
+
+SINGLETON
+1. Stwórz klasę narzędziową służącą do wczytywania pliku CSV do listy, które będzie singletonem opartym o enuma.
+
+2. Stwórz klasę która rozszerza JFrame. Ustaw odpowidenie propertisy klasy: jak w przykładzie
+	https://examples.javacodegeeks.com/desktop-java/swing/jframe/java-jframe-example/
+	Chcemy aby okno naszego programu było singletonem.
+	Wyświetl okienko.
+
+FABRYKA ABSTRAKCYJNA
+3. Stwórz hierarchię typów odpowadającą diagramowi z pliku abstract_fctory_package_diagram.png
+	Stwórz fabrykę abstrakcyjną dla tego modelu danych.
+
+BUILDER
+4. Stwórz klasę modelującą Postać z Gry, która ma przynajmniej 5 pól (np. String name, boolean isImmoratal, double health, String tribe, int damage).
+	Stwórz builder dla tej klasy.
+
+ADAPTER
+5. Stwórz interfejs PrintableListAdapter, które posiada metodę printList. Skorzystaj z diagramu klas z adapter_diagram.png
+
+DEKORATOR
+6.Kawiarnia - dekorator dla kalsy Napój, który pozwala o rozszerzanie Kawy o dodatkowe składniki. Skorzystaj z diagramu
+	dekorator.jpg. Szczegóły będą podane na zajęciach
+
+
+7. Przepisz program ToDoList tak aby korzystał z wzorców: Singleton, Builder, Metoda Fabrykująca
