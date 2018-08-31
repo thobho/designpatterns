@@ -25,3 +25,5 @@ DEKORATOR
 
 
 7. Przepisz program ToDoList tak aby korzystał z wzorców: Singleton, Builder, Metoda Fabrykująca
+
+http://campus.murraystate.edu/academic/faculty/wlyle/430/rc008-designpatterns_online.pdf

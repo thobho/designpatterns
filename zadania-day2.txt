@@ -1,0 +1,13 @@
+http://campus.murraystate.edu/academic/faculty/wlyle/430/rc008-designpatterns_online.pdf
+
+
+STRATEGY
+1. Zapimlementuj program, który sortuje liczby podane jako parametr progamu lub wczytane z pliku i wyświetla je na kosnoli. Użytkownik musi mieć
+	możliwość wyboru algorytmu sortującego. Użyj wzorca strategia.
+
+OBSERVER
+2. Zaimplementuj system, który będzie nasłuchwiał na źródła liczb, które mogą pojawiać się w różnych momentach.
+
+CHAIN OF RESPONSIBILITY
+3. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity.
+
