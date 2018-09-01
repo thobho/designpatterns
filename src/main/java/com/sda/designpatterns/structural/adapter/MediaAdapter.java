@@ -2,6 +2,7 @@ package com.sda.designpatterns.structural.adapter;
 
 public class MediaAdapter implements MediaPlayer {
 
+    //adaptee
     AdvancedMediaPlayer advancedMusicPlayer;
 
     public MediaAdapter(String audioType){

@@ -2,30 +2,70 @@ package com.sda.designpatterns.creational.builder;
 
 public class Person {
 
-    private final String lastName;
-    private final String firstName;
-    private final String middleName;
-    private final String salutation;
-    private final String suffix;
-    private final String streetAddress;
-    private final String city;
-    private final String state;
-    private final boolean isFemale;
-    private final boolean isEmployed;
-    private final boolean isHomewOwner;
+    private  String lastName;
+    private  String firstName;
+    private  String middleName;
+    private  String salutation;
+    private  String streetAddress;
+    private  String city;
+    private  String state;
+    private  boolean isFemale;
+    private  boolean isEmployed;
+    private  boolean isHomewOwner;
+
+    public Person(){}
 
     public Person(String lastName, String firstName, String middleName, String salutation, String suffix, String streetAddress, String city, String state, boolean isFemale, boolean isEmployed, boolean isHomewOwner) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.middleName = middleName;
         this.salutation = salutation;
-        this.suffix = suffix;
         this.streetAddress = streetAddress;
         this.city = city;
         this.state = state;
         this.isFemale = isFemale;
         this.isEmployed = isEmployed;
         this.isHomewOwner = isHomewOwner;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = middleName;
+    }
+
+    public void setSalutation(String salutation) {
+        this.salutation = salutation;
+    }
+
+    public void setStreetAddress(String streetAddress) {
+        this.streetAddress = streetAddress;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public void setFemale(boolean female) {
+        isFemale = female;
+    }
+
+    public void setEmployed(boolean employed) {
+        isEmployed = employed;
+    }
+
+    public void setHomewOwner(boolean homewOwner) {
+        isHomewOwner = homewOwner;
     }
 
     public String getLastName() {
@@ -42,10 +82,6 @@ public class Person {
 
     public String getSalutation() {
         return salutation;
-    }
-
-    public String getSuffix() {
-        return suffix;
     }
 
     public String getStreetAddress() {
@@ -72,6 +108,8 @@ public class Person {
         return isHomewOwner;
     }
 
+
+
     @Override
     public String toString() {
         return "Person{" +
@@ -79,7 +117,6 @@ public class Person {
                 ", firstName='" + firstName + '\'' +
                 ", middleName='" + middleName + '\'' +
                 ", salutation='" + salutation + '\'' +
-                ", suffix='" + suffix + '\'' +
                 ", streetAddress='" + streetAddress + '\'' +
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +

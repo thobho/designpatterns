@@ -2,12 +2,25 @@ http://campus.murraystate.edu/academic/faculty/wlyle/430/rc008-designpatterns_on
 
 
 STRATEGY
-1. Zapimlementuj program, który sortuje liczby podane jako parametr progamu lub wczytane z pliku i wyświetla je na kosnoli. Użytkownik musi mieć
-	możliwość wyboru algorytmu sortującego. Użyj wzorca strategia.
+1. Zapimlementuj program, który formatuje i wyświetla wprowadzone przez użytkowanika dane na różny sposób.
+	Użytkownik w trakcie działania programu może wybrać strategie formatowania.
 
 OBSERVER
-2. Zaimplementuj system, który będzie nasłuchwiał na źródła liczb, które mogą pojawiać się w różnych momentach.
+1. Dopisz obserwera w pakiecie observer2. Twój nowy obserwer nich zapisuje dane do pliku.
+
+2. Zaimplementuj system, który będzie nasłuchwiał na przyciśnięcia klawiszy przez użytkowanika.
+	Zrób 2 klasy "obserwujące" jedna z nich niech zapisuje dane do pliku. Druga nich wyświetla znaki na konsolo na konsoli.
 
 CHAIN OF RESPONSIBILITY
-3. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity.
+1. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity.
+
+TAMPLATE METHOD
+1. Rozszerz istniejąca klasę z pakietu template method o nową gre.
+2. Napisz za pomocą wzorca template method przepisy na kawę i herbatę. Wydziel wspólne elementy algortytmu do klasy abstrakcyjnej.
+	Elementy specyficzne dla każdego z algorytmu umieść w podklasach.
+
+ITERATOR
+1.Zaimplementuj iterator, który przechodzi przez kolekcję pobierając co drugi jej element.
+
+
 

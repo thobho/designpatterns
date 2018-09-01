@@ -14,18 +14,9 @@ public class PersonBuilder
     private boolean newIsEmployed;
     private boolean newIsHomeOwner;
 
-    public PersonBuilder()
-    {
-    }
-
-    public PersonBuilder setNewLastName(String newLastName) {
-        this.newLastName = newLastName;
-        return this;
-    }
-
-    public PersonBuilder setNewFirstName(String newFirstName) {
+    public PersonBuilder(String newLastName, String newFirstName) {
         this.newFirstName = newFirstName;
-        return this;
+        this.newLastName = newLastName;
     }
 
     public PersonBuilder setNewMiddleName(String newMiddleName) {
