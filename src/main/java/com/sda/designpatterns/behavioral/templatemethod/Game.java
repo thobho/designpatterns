@@ -1,7 +1,14 @@
 package com.sda.designpatterns.behavioral.templatemethod;
 
+import java.util.List;
+
 public abstract class Game {
-    abstract void initialize();
+
+    List<String> players;
+
+    void initialize(){
+        System.out.println("Inicjalizacja boiska");
+    }
     abstract void startPlay();
     abstract void endPlay();
 

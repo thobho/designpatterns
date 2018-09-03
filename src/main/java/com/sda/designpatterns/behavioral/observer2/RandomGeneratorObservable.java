@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RandomGenerator implements Observable{
+public class RandomGeneratorObservable implements Observable{
 
     List<Observer> observerList = new ArrayList<>();
 
@@ -15,7 +15,7 @@ public class RandomGenerator implements Observable{
 
     @Override
     public void deregisterObserver(Observer observer) {
-        this.registerObserver(observer);
+        this.observerList.remove(observer);
     }
 
     @Override
