@@ -1,4 +1,4 @@
-package com.sda.designpatterns.creational.singleton;
+package com.sda.designpatterns.creational.singleton.excersises;
 
 import javax.swing.*;
 

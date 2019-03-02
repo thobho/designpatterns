@@ -4,6 +4,7 @@ public class PersonBuilder
 {
     private String newLastName;
     private String newFirstName;
+
     private String newMiddleName;
     private String newSalutation;
     private String newSuffix;
@@ -65,7 +66,18 @@ public class PersonBuilder
     }
 
     public Person createPerson() {
-        return new Person(newLastName, newFirstName, newMiddleName, newSalutation, newSuffix, newStreetAddress, newCity, newState, newIsFemale, newIsEmployed, newIsHomeOwner);
+        return new Person(newLastName,
+                newFirstName,
+                newMiddleName,
+                newSalutation,
+                newSuffix,
+                newStreetAddress,
+                newCity,
+                newState,
+                newIsFemale,
+                newIsEmployed,
+                newIsHomeOwner
+        );
     }
 
 }

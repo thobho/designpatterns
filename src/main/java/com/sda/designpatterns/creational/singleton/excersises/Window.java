@@ -1,8 +1,7 @@
-package com.sda.designpatterns.creational.singleton;
+package com.sda.designpatterns.creational.singleton.excersises;
 
 import javax.swing.*;
 import java.awt.*;
-import java.util.Observable;
 
 public class Window extends JFrame {
 
@@ -19,8 +18,6 @@ public class Window extends JFrame {
         this.jButton = new JButton("button");
         this.add(jButton);
         this.setSize(200,200);
-
-
     }
 
     public static void showWindow() {

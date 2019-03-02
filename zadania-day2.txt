@@ -14,7 +14,7 @@ OBSERVER
 CHAIN OF RESPONSIBILITY
 1. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity.
 
-TAMPLATE METHOD
+TEMPLATE METHOD
 1. Rozszerz istniejąca klasę z pakietu template method o nową gre.
 2. Napisz za pomocą wzorca template method przepisy na kawę i herbatę. Wydziel wspólne elementy algortytmu do klasy abstrakcyjnej.
 	Elementy specyficzne dla każdego z algorytmu umieść w podklasach.

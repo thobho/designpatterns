@@ -19,9 +19,9 @@ public class KeyPressObservable implements Observable {
     }
 
     @Override
-    public void notifyObservers(int number) {
+    public void notifyObservers(String text) {
         for (Observer observer : observableList) {
-            observer.update(number);
+            observer.update(text);
         }
     }
 }

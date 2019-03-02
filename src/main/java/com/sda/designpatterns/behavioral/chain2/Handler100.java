@@ -4,6 +4,7 @@ public class Handler100 implements Handler{
 
     private Handler nextHandler;
 
+
     @Override
     public Handler getNextHandler() {
         return nextHandler;
@@ -11,7 +12,7 @@ public class Handler100 implements Handler{
 
     @Override
     public int handle(int amountOfMoney) {
-        System.out.println(amountOfMoney % 100);
+        System.out.println("Wydaję " + amountOfMoney / 100 + " x 100zł");
         return amountOfMoney % 100;
     }
 }

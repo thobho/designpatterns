@@ -1,9 +1,6 @@
-package com.sda.designpatterns.creational.singleton;
-
-import sun.reflect.generics.scope.DummyScope;
+package com.sda.designpatterns.creational.singleton.excersises;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

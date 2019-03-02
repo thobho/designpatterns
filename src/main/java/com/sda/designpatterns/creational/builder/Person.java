@@ -28,6 +28,18 @@ public class Person {
         this.isHomewOwner = isHomewOwner;
     }
 
+    public Person(String lastName, String firstName) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+    }
+
+    public Person(String lastName, String firstName, String state, boolean isFemale) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.state = state;
+        this.isFemale = isFemale;
+    }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -139,13 +151,8 @@ public class Person {
         private boolean nestedIsEmployed;
         private boolean nestedIsHomeOwner;
 
-        public PersonBuilder(
-                final String newFirstName,
-                final String newCity,
-                final String newState) {
+        public PersonBuilder(final String newFirstName) {
             this.nestedFirstName = newFirstName;
-            this.nestedCity = newCity;
-            this.nestedState = newState;
         }
 
         public PersonBuilder lastName(String newLastName) {

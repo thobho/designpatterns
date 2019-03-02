@@ -1,4 +1,4 @@
-package com.sda.designpatterns.creational.singleton;
+package com.sda.designpatterns.creational.singleton.excersises;
 
 public class WindowTest {
     public static void main(String[] args) {

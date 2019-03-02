@@ -1,5 +1,5 @@
 package com.sda.designpatterns.structural.adapter2;
 
-public interface PrintableList {
+public interface Printable {
     void print();
 }

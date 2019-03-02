@@ -4,5 +4,5 @@ public interface Observable {
 
     void registerObserver(Observer observer);
     void deregisterObserver(Observer observer);
-    void notifyObservers(int number);
+    void notifyObservers(String text);
 }

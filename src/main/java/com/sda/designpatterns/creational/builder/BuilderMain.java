@@ -11,7 +11,7 @@ public class BuilderMain {
                 .createPerson();
 
 
-        Person person2 = new Person.PersonBuilder("test", "test2,", "test3")
+        Person person2 = new Person.PersonBuilder("test")
                 .lastName("AS:DLK")
                 .isHomeOwner(false)
                 .createPerson();

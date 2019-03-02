@@ -4,6 +4,6 @@ import java.util.Random;
 
 public class WheaterStation {
     public double getCelciusTemperature(){
-        return new Random().nextDouble();
+        return new Random().nextDouble() * 1000;
     }
 }

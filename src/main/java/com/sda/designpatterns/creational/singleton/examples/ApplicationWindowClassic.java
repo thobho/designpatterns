@@ -1,4 +1,4 @@
-package com.sda.designpatterns.creational.singleton;
+package com.sda.designpatterns.creational.singleton.examples;
 
 public class ApplicationWindowClassic {
 

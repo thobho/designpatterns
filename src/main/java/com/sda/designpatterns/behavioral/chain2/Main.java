@@ -8,8 +8,9 @@ public class Main {
 
 
         Handler current = handler200;
-        int currentAmount =888;
-        while (current.getNextHandler() != null){
+        int currentAmount = 900;
+
+        while (current != null) {
             currentAmount = current.handle(currentAmount);
             current = current.getNextHandler();
 

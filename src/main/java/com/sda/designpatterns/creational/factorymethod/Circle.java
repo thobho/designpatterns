@@ -1,9 +1,8 @@
 package com.sda.designpatterns.creational.factorymethod;
 
 public class Circle implements Shape{
-
+    @Override
     public String draw() {
-        System.out.println("Drawing circle");
-        return "this is circle";
+        return "This is CIRCLE!!!";
     }
 }

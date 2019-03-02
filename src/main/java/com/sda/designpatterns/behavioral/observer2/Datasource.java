@@ -19,7 +19,7 @@ public class Datasource {
                     randomGeneratorObservable.notifyObservers(number);
                 }
             } catch (InterruptedException e) {
-
+                throw new IllegalStateException();
             }
         });
         thread.start();

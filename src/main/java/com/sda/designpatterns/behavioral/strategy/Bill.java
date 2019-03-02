@@ -6,6 +6,7 @@ import java.util.List;
 
 public class Bill {
     private List<LineItem> lineItems = new ArrayList<>();
+
     public void addLineItem(LineItem lineItem) {
         lineItems.add(lineItem);
     }

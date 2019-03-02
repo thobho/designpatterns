@@ -1,0 +1,4 @@
+Fri Dec 14 19:42:05 CET 2018 | Logger 
+Fri Dec 14 19:42:07 CET 2018 | działą 
+Fri Dec 14 19:42:10 CET 2018 | to jest to ni
+Fri Dec 14 19:42:18 CET 2018 | Mój własny program pidzączy
