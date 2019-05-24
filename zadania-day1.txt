@@ -8,22 +8,30 @@ SINGLETON
 	Chcemy aby okno naszego programu było singletonem.
 	Wyświetl okienko.
 
+METODA FABRYKUJĄCA
+3. Stwórz metodę fabrykująca dla hierarchii obiektór reprezentujących kształt (interface Shape) tj. Circle, Square ect.
+
 FABRYKA ABSTRAKCYJNA
-3. Stwórz hierarchię typów odpowadającą diagramowi z pliku abstract_fctory_package_diagram.png
+4. Stwórz w pakiecie com.sda.designpatterns.creational.abstractfactoru.example nowy pakiet o nazwie linux.
+Stwórz nową implementacje LinuxButton, LinuxCheckbox i LinuxOsFactory
+
+5. (DO DOMU) Stwórz hierarchię typów odpowadającą diagramowi z pliku abstract_fctory_package_diagram.png
 	Stwórz fabrykę abstrakcyjną dla tego modelu danych.
 
 BUILDER
-4. Stwórz klasę modelującą Postać z Gry, która ma przynajmniej 5 pól (np. String name, boolean isImmoratal, double health, String tribe, int damage).
+6. Stwórz klasę modelującą Postać z Gry, która ma przynajmniej 5 pól (np. String name, boolean isImmoratal, double health, String tribe, int damage).
 	Stwórz builder dla tej klasy.
+7. Stwórz builder z klasą wewnętrzną dla klas z zadania 5.
+
 
 ADAPTER
-5. Stwórz interfejs PrintableListAdapter, które posiada metodę printList. Skorzystaj z diagramu klas z adapter_diagram.png
+8. Stwórz interfejs PrintableListAdapter, które posiada metodę printList. Skorzystaj z diagramu klas z adapter_diagram.png
+9. Stwórz adapter dla każdej kolekcji Javy tak, żeby można było korzystać z metody print z interfejsu com.sda.designpatterns.structural.adapter.exercises.Printable;
+
 
 DEKORATOR
 6.Kawiarnia - dekorator dla kalsy Napój, który pozwala o rozszerzanie Kawy o dodatkowe składniki. Skorzystaj z diagramu
 	dekorator.jpg. Szczegóły będą podane na zajęciach
 
-
-7. Przepisz program ToDoList tak aby korzystał z wzorców: Singleton, Builder, Metoda Fabrykująca
 
 http://campus.murraystate.edu/academic/faculty/wlyle/430/rc008-designpatterns_online.pdf
