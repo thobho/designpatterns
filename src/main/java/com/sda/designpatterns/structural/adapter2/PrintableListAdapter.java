@@ -1,6 +1,7 @@
 package com.sda.designpatterns.structural.adapter2;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class PrintableListAdapter implements Printable {
@@ -20,7 +21,17 @@ public class PrintableListAdapter implements Printable {
 
     public static void main(String[] args) {
         List<String> strings = Arrays.asList("dasd", "dasdvsd", "daxzvzsd");
+
+        HashMap<String, String> obiady = new HashMap<>();
+        obiady.put("Mirek", "Naleśniki");
+        obiady.put("Andrzej", "Schabowy");
+
+        PrintableMapAdapter printableMapAdapter = new PrintableMapAdapter(obiady);
+        printableMapAdapter.print();
+
         Printable printableAdapter = new PrintableListAdapter(strings);
         printableAdapter.print();
+
+        List<Printable> printables = Arrays.asList(printableAdapter, printableAdapter);
     }
 }

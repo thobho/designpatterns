@@ -1,10 +1,12 @@
 package com.sda.designpatterns.behavioral.chain2;
 
-public class Handler200 implements Handler {
+public class Handler50 implements Handler{
+
+    private static final int AMOUNT_OF_HADLER = 50;
 
     private Handler nextHandler;
 
-    public Handler200(Handler nextHandler) {
+    public Handler50(Handler nextHandler) {
         this.nextHandler = nextHandler;
     }
 
@@ -15,7 +17,7 @@ public class Handler200 implements Handler {
 
     @Override
     public int handle(int amountOfMoney) {
-        System.out.println("Wydaję " + amountOfMoney / 200 + " x 200zł");
-        return amountOfMoney % 200;
+        System.out.println("Wydaję " + amountOfMoney / AMOUNT_OF_HADLER + " x 50zł");
+        return amountOfMoney % AMOUNT_OF_HADLER;
     }
 }

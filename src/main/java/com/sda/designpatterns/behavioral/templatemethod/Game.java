@@ -9,6 +9,7 @@ public abstract class Game {
     void initialize(){
         System.out.println("Inicjalizacja boiska");
     }
+
     abstract void startPlay();
     abstract void endPlay();
 

@@ -20,6 +20,9 @@ public class RandomGeneratorObservable implements Observable{
 
     @Override
     public void notifyObservers(int number) {
-        observerList.forEach(observer -> observer.update(number));
+
+        for (Observer obs : observerList) {
+            obs.update(number);
+        }
     }
 }

@@ -8,6 +8,7 @@ public class CarDecorator implements Car {
         this.car = c;
     }
 
+    @Override
     public void assemble() {
         this.car.assemble();
     }

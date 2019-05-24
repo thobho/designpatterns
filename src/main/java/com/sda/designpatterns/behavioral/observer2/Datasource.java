@@ -7,7 +7,13 @@ public class Datasource {
 
 
         RandomGeneratorObservable randomGeneratorObservable = new RandomGeneratorObservable();
+
         randomGeneratorObservable.registerObserver(new ConsoleObserver());
+
+        FileWriterObserver observer = new FileWriterObserver();
+
+        randomGeneratorObservable.registerObserver(observer);
+
 
 
         //sposób na tworznie liczb w osobnym wątku

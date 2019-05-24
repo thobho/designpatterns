@@ -6,7 +6,6 @@ public class Animal {
     private int age;
     private Heart heart;
 
-
     public Animal(Animal animalToCopy) {
         this.name = animalToCopy.getName();
         this.age = animalToCopy.getAge();

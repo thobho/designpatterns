@@ -28,6 +28,7 @@ public class Person {
         this.isHomewOwner = isHomewOwner;
     }
 
+
     public Person(String lastName, String firstName) {
         this.lastName = lastName;
         this.firstName = firstName;
@@ -121,22 +122,6 @@ public class Person {
     }
 
 
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", middleName='" + middleName + '\'' +
-                ", salutation='" + salutation + '\'' +
-                ", streetAddress='" + streetAddress + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", isFemale=" + isFemale +
-                ", isEmployed=" + isEmployed +
-                ", isHomewOwner=" + isHomewOwner +
-                '}';
-    }
 
     public static class PersonBuilder {
         private String nestedLastName;

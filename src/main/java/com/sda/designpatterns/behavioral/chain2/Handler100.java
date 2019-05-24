@@ -4,6 +4,9 @@ public class Handler100 implements Handler{
 
     private Handler nextHandler;
 
+    public Handler100(Handler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
 
     @Override
     public Handler getNextHandler() {

@@ -1,6 +1,8 @@
 package com.sda.designpatterns.creational.factorymethod;
 
 public class ShapeFactory {
+
+
     public static Shape createShape(int type) {
         switch (type) {
             case 1:
@@ -13,6 +15,9 @@ public class ShapeFactory {
                 throw new IllegalArgumentException();
         }
     }
+
+
+
 
     public static Shape createShape(String type) {
         if (type.equalsIgnoreCase("kwadrat")) {
