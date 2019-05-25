@@ -1,18 +1,15 @@
 http://campus.murraystate.edu/academic/faculty/wlyle/430/rc008-designpatterns_online.pdf
 
+OBSERVER
+1. Dopisz obserwera w pakiecie com.sda.designpatterns.behavioral.observer.example.keylogger nowego Obserwera, który będzie zapisywał dane do pliku.
 
 STRATEGY
-1. Zapimlementuj program, który formatuje i wyświetla wprowadzone przez użytkowanika dane na różny sposób.
-	Użytkownik w trakcie działania programu może wybrać strategie formatowania.
-
-OBSERVER
-1. Dopisz obserwera w pakiecie observer2. Twój nowy obserwer nich zapisuje dane do pliku.
-
-2. Zaimplementuj system, który będzie nasłuchwiał na przyciśnięcia klawiszy przez użytkowanika.
-	Zrób 2 klasy "obserwujące" jedna z nich niech zapisuje dane do pliku. Druga nich wyświetla znaki na konsolo na konsoli.
+2. Napisz zestaw klas reprezentujący bohatera i jego umiejętność walczenia za pomocą jakiejś broni (Aromur). Niech
+broń będzie wybierana przez użytkownika (z konsoli) w trakcie uruchamiania proramu)
 
 CHAIN OF RESPONSIBILITY
-1. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity.
+3. Zaimplementuj zachłanny problem wydawania reszty używając wzorca chain of responsiblity. Dopisz handlary dla pozostałych
+nominałów i skonstruj metodę main.
 
 TEMPLATE METHOD
 1. Rozszerz istniejąca klasę z pakietu template method o nową gre.
