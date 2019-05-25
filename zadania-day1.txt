@@ -9,7 +9,7 @@ SINGLETON
 	Wyświetl okienko.
 
 METODA FABRYKUJĄCA
-3. Stwórz metodę fabrykująca dla hierarchii obiektór reprezentujących kształt (interface Shape) tj. Circle, Square ect.
+3. Stwórz metodę fabrykująca dla hierarchii obiektów reprezentujących kształt (interface Shape) tj. Circle, Square ect.
 
 FABRYKA ABSTRAKCYJNA
 4. Stwórz w pakiecie com.sda.designpatterns.creational.abstractfactoru.example nowy pakiet o nazwie linux.
@@ -30,7 +30,7 @@ ADAPTER
 
 
 DEKORATOR
-6.Kawiarnia - dekorator dla kalsy Napój, który pozwala o rozszerzanie Kawy o dodatkowe składniki. Skorzystaj z diagramu
+10.Kawiarnia - dekorator dla kalsy Napój, który pozwala o rozszerzanie Kawy o dodatkowe składniki. Skorzystaj z diagramu
 	dekorator.jpg. Szczegóły będą podane na zajęciach
 
 
