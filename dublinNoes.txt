@@ -1,0 +1,46 @@
+//file observer
+
+public class FileLoggerObserver implements Observer {
+
+    File file = new File("log.txt");
+
+    public FileLoggerObserver() {
+        try {
+            file.createNewFile();
+        } catch (IOException e) {
+
+        }
+    }
+
+    @Override
+    public void update(String text) {
+        try {
+            FileWriter fileWriter = new FileWriter(file, true);
+            fileWriter.write(new Date().toString() + " | " +text+"\n");
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+//handler main
+public class Main {
+
+    public static void main(String[] args) {
+
+        Handler50 handler50 = new Handler50(null);
+        Handler100 handler100 = new Handler100(handler50);
+        Handler200 handler200 = new Handler200(handler100);
+
+
+        Handler currentProcessingHandler = handler200;
+        int currentAmount = 900;
+
+        while (currentProcessingHandler != null) {
+            currentAmount = currentProcessingHandler.handle(currentAmount);
+            currentProcessingHandler = currentProcessingHandler.getNextHandler();
+
+        }
+    }
+}

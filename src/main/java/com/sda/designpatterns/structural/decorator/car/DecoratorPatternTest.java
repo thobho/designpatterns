@@ -7,12 +7,12 @@ public class DecoratorPatternTest {
 
         Car basicCar = new BasicCar();
 
-        Car luxuryCar = new LuxuryCar(basicCar);
+        Car sportLuxuryCar = new SportsCar(basicCar);
+        Car luxuryCar = new LuxuryCar(sportLuxuryCar);
 
-        Car sportLuxuryCar = new SportsCar(luxuryCar);
+        SuvCar suvCar = new SuvCar(luxuryCar);
 
-
-        sportLuxuryCar.assemble();
+        suvCar.assemble();
     }
 
 }

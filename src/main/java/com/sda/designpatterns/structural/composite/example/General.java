@@ -1,7 +1,7 @@
 package com.sda.designpatterns.structural.composite.example;
 
 import java.util.List;
-
+//root
 public class General implements Soldier {
 
     private List<Soldier> soldiers;

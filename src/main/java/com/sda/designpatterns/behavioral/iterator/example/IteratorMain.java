@@ -1,8 +1,6 @@
 package com.sda.designpatterns.behavioral.iterator.example;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 public class IteratorMain {
 
@@ -12,11 +10,24 @@ public class IteratorMain {
 
         Iterator<Integer> iterator = integetList.iterator();
 
+        Map<Integer, String> integerStringHashMap = new HashMap<>();
 
-        while (iterator.hasNext()){
-            Integer next = iterator.next();
+        integerStringHashMap.put(1, "Jędruś");
+        integerStringHashMap.put(2, "Ania");
+        integerStringHashMap.put(3, "Ania");
+
+        int a = 10;
+
+        Integer boxed = new Integer(a);
+
+        int  b = boxed;
+
+        Iterator<String> studentsIterator
+                = integerStringHashMap.values().iterator();
 
 
+        while (studentsIterator.hasNext()){
+            String next = studentsIterator.next();
             System.out.println(next);
         }
 
